@@ -15,7 +15,7 @@ const content = {
     hero: {
       smallBadge: "Secure, reliable IT for modern businesses",
       title: "IT support that keeps your business moving.",
-      text: "Zenith Support helps businesses stay productive, protected, and confident with responsive IT support, Microsoft 365 expertise, cyber security, computer repair, custom PC builds, and modern website solutions.",
+      text: "Zenith Supports helps businesses stay productive, protected, and confident with responsive IT support, Microsoft 365 expertise, cyber security, computer repair, custom PC builds, and modern website solutions.",
       primaryButton: "Contact Us",
       secondaryButton: "View Services"
     },
@@ -101,12 +101,12 @@ const content = {
       label: "About Us",
       cardSubtitle: "IT Support & Cyber Security Partner",
       title: "Technology support with clarity and care.",
-      text: "Zenith Support provides professional IT support services for businesses and individuals that need reliable systems, secure cloud platforms, responsive technical help, clean modern websites, and custom computer solutions. We proudly support both English and Vietnamese-speaking customers across Australia and New Zealand. We combine hands-on troubleshooting with long-term planning so your technology works for you, not against you."
+      text: "Zenith Supports provides professional IT support services for businesses and individuals that need reliable systems, secure cloud platforms, responsive technical help, clean modern websites, and custom computer solutions. We proudly support both English and Vietnamese-speaking customers across Australia and New Zealand. We combine hands-on troubleshooting with long-term planning so your technology works for you, not against you."
     },
     contact: {
       label: "Contact",
       title: "Need IT support?",
-      text: "Get in touch with Zenith Support to discuss your IT environment, cyber security needs, computer repair, upgrade, custom PC build, or website project.",
+      text: "Get in touch with Zenith Supports to discuss your IT environment, cyber security needs, computer repair, upgrade, custom PC build, or website project.",
       button: "Email Us"
     },
     footer: "All rights reserved."
@@ -125,7 +125,7 @@ const content = {
     hero: {
       smallBadge: "Dịch vụ IT an toàn, ổn định cho doanh nghiệp hiện đại",
       title: "Giải pháp IT giúp doanh nghiệp vận hành ổn định.",
-      text: "Zenith Support hỗ trợ doanh nghiệp và cá nhân với dịch vụ IT, Microsoft 365, an ninh mạng, sửa chữa máy tính, build PC gaming, nâng cấp linh kiện và thiết kế website hiện đại.",
+      text: "Zenith Supports hỗ trợ doanh nghiệp và cá nhân với dịch vụ IT, Microsoft 365, an ninh mạng, sửa chữa máy tính, build PC gaming, nâng cấp linh kiện và thiết kế website hiện đại.",
       primaryButton: "Liên Hệ Ngay",
       secondaryButton: "Xem Dịch Vụ"
     },
@@ -211,12 +211,12 @@ const content = {
       label: "Giới Thiệu",
       cardSubtitle: "Đối Tác IT & An Ninh Mạng",
       title: "Hỗ trợ công nghệ rõ ràng, tận tâm và dễ hiểu.",
-      text: "Zenith Support cung cấp dịch vụ IT chuyên nghiệp cho doanh nghiệp và cá nhân cần hệ thống ổn định, nền tảng cloud an toàn, hỗ trợ kỹ thuật nhanh chóng, website hiện đại và giải pháp máy tính theo nhu cầu. Chúng tôi hỗ trợ khách hàng nói tiếng Anh và tiếng Việt tại Úc và New Zealand. Mục tiêu của chúng tôi là giúp công nghệ phục vụ bạn, thay vì làm bạn đau đầu."
+      text: "Zenith Supports cung cấp dịch vụ IT chuyên nghiệp cho doanh nghiệp và cá nhân cần hệ thống ổn định, nền tảng cloud an toàn, hỗ trợ kỹ thuật nhanh chóng, website hiện đại và giải pháp máy tính theo nhu cầu. Chúng tôi hỗ trợ khách hàng nói tiếng Anh và tiếng Việt tại Úc và New Zealand. Mục tiêu của chúng tôi là giúp công nghệ phục vụ bạn, thay vì làm bạn đau đầu."
     },
     contact: {
       label: "Liên Hệ",
       title: "Bạn cần hỗ trợ IT?",
-      text: "Hãy liên hệ Zenith Support để trao đổi về hệ thống IT, an ninh mạng, sửa chữa máy tính, nâng cấp linh kiện, build PC hoặc dự án website của bạn.",
+      text: "Hãy liên hệ Zenith Supports để trao đổi về hệ thống IT, an ninh mạng, sửa chữa máy tính, nâng cấp linh kiện, build PC hoặc dự án website của bạn.",
       button: "Gửi Email"
     },
     footer: "Đã đăng ký bản quyền."
@@ -225,7 +225,7 @@ const content = {
 
 const contact = {
   email: "contact@zenith-supports.com",
-  phone: "+61 451 656 135",
+  phone: "+61 451 656 131",
   location: "Australia & New Zealand"
 };
 
@@ -289,14 +289,13 @@ export default function ZenithSupportWebsite() {
     <div className="min-h-screen bg-neutral-950 text-white">
       <header className="sticky top-0 z-50 border-b border-white/10 bg-neutral-950/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <a href="#top" className="flex items-center gap-3" aria-label="Zenith Support home">
+          <a href="#top" className="flex items-center gap-3" aria-label="Zenith Supports home">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-amber-400/30 bg-gradient-to-br from-black to-neutral-900 shadow-lg shadow-amber-500/10">
-              <span className="bg-gradient-to-br from-yellow-200 via-amber-400 to-yellow-600 bg-clip-text text-xl font-black italic tracking-[-0.08em] text-transparent drop-shadow-[0_0_8px_rgba(251,191,36,0.55)]">ZS</span>
+              <span className="text-lg font-black tracking-tight text-amber-300">ZS</span>
             </div>
             <div>
-              <p className="bg-gradient-to-r from-white via-neutral-100 to-amber-200 bg-clip-text text-lg font-black uppercase tracking-[0.18em] text-transparent">Zenith</p>
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-400">Support</p>
-              <p className="text-[10px] uppercase tracking-[0.18em] text-neutral-500">{t.nav.tagline}</p>
+              <p className="text-lg font-semibold tracking-wide">Zenith Supports</p>
+              <p className="text-xs text-neutral-400">{t.nav.tagline}</p>
             </div>
           </a>
 
@@ -329,23 +328,15 @@ export default function ZenithSupportWebsite() {
           <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-6 py-24 md:grid-cols-2 md:py-32">
             <div>
               <div className="mb-8 inline-flex items-center gap-5 rounded-[2rem] border border-amber-300/20 bg-black/60 px-6 py-5 shadow-2xl shadow-amber-500/10 backdrop-blur">
-                <div className="relative flex h-24 w-24 items-center justify-center rounded-3xl border border-amber-400/40 bg-gradient-to-br from-black via-neutral-950 to-amber-950/30 shadow-2xl shadow-amber-500/20">
-                  <div className="absolute inset-2 rounded-2xl border border-amber-300/15" />
-                  <span className="bg-gradient-to-br from-yellow-100 via-amber-400 to-yellow-700 bg-clip-text text-5xl font-black italic tracking-[-0.1em] text-transparent drop-shadow-[0_0_14px_rgba(251,191,36,0.75)]">ZS</span>
+                <div className="flex h-20 w-20 items-center justify-center rounded-3xl border border-amber-400/30 bg-gradient-to-br from-black to-neutral-900">
+                  <span className="text-4xl font-black tracking-tight text-amber-300">ZS</span>
                 </div>
 
                 <div>
-                  <div>
-                    <h2 className="bg-gradient-to-r from-white via-neutral-100 to-amber-200 bg-clip-text text-3xl font-black uppercase tracking-[0.24em] text-transparent md:text-5xl">
-                      Zenith
-                    </h2>
-                    <div className="mt-1 flex items-center gap-3">
-                      <span className="h-px w-12 bg-gradient-to-r from-transparent to-amber-400" />
-                      <p className="text-lg font-black uppercase tracking-[0.55em] text-amber-400 md:text-2xl">Support</p>
-                      <span className="h-px w-12 bg-gradient-to-l from-transparent to-amber-400" />
-                    </div>
-                  </div>
-                  <p className="mt-3 text-sm uppercase tracking-[0.35em] text-neutral-400 md:text-base">
+                  <h2 className="bg-gradient-to-r from-amber-200 via-amber-300 to-yellow-500 bg-clip-text text-3xl font-black tracking-wide text-transparent md:text-5xl">
+                    Zenith Supports
+                  </h2>
+                  <p className="mt-1 text-sm uppercase tracking-[0.35em] text-neutral-400 md:text-base">
                     {t.nav.tagline}
                   </p>
                 </div>
@@ -392,10 +383,10 @@ export default function ZenithSupportWebsite() {
                   <div className="mb-8 flex items-center justify-between gap-4">
                     <div className="flex items-center gap-3">
                       <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-400/40 bg-neutral-950">
-                        <span className="bg-gradient-to-br from-yellow-100 via-amber-400 to-yellow-700 bg-clip-text text-2xl font-black italic tracking-[-0.08em] text-transparent drop-shadow-[0_0_8px_rgba(251,191,36,0.6)]">ZS</span>
+                        <span className="text-2xl font-bold text-amber-300">ZS</span>
                       </div>
                       <div>
-                        <p className="font-semibold">Zenith Support</p>
+                        <p className="font-semibold">Zenith Supports</p>
                         <p className="text-sm text-neutral-400">{t.partnerCard.subtitle}</p>
                       </div>
                     </div>
@@ -474,9 +465,9 @@ export default function ZenithSupportWebsite() {
           <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-center">
             <div className="rounded-[2rem] border border-amber-300/20 bg-black p-10 text-center">
               <div className="mx-auto mb-5 flex h-24 w-24 items-center justify-center rounded-3xl border border-amber-400/40 bg-neutral-950">
-                <span className="bg-gradient-to-br from-yellow-100 via-amber-400 to-yellow-700 bg-clip-text text-5xl font-black italic tracking-[-0.1em] text-transparent drop-shadow-[0_0_12px_rgba(251,191,36,0.65)]">ZS</span>
+                <span className="text-4xl font-bold text-amber-300">ZS</span>
               </div>
-              <p className="text-2xl font-semibold">Zenith Support</p>
+              <p className="text-2xl font-semibold">Zenith Supports</p>
               <p className="mt-2 text-neutral-400">{t.about.cardSubtitle}</p>
             </div>
             <div>
@@ -533,7 +524,7 @@ export default function ZenithSupportWebsite() {
       </main>
 
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-neutral-500">
-        © {new Date().getFullYear()} Zenith Support. {t.footer}
+        © {new Date().getFullYear()} Zenith Supports. {t.footer}
       </footer>
     </div>
   );
